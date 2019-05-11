@@ -6,7 +6,12 @@
 </head>
 <body>
 
-<p>Ok</p>
+{% for produs in produse %}
+    {{ produs.nume }}
+    {{ produs.pret }}
+    {{ produs.descriere }}
+    <hr>
+{% endfor %}
 
 </body>
 </html>

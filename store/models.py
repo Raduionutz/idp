@@ -1,8 +1,6 @@
 from django.db import models
 
 
-# Create your models here.
-
 class Produs(models.Model):
     nume = models.CharField(max_length=256)
     pret = models.FloatField(default=1000.56)
